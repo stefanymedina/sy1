@@ -16,11 +16,11 @@ class HomeController extends Controller
             'controller_name' => 'HomeController',
         ]);
     }
-
+ 
     /**
     *@Route("/", name="index")
     */
     public function index(){
       return $this->render('home/inicio.html.twig');
-    } 
+    }
 }
